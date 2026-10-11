@@ -1,0 +1,33 @@
+{
+  "name": "@elizaos/plugin-reeling",
+  "version": "0.1.0",
+  "description": "Autonomous short-form video generation, multi-channel publishing, and social analytics plugin for ElizaOS agents via reeling.app",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "test": "node --test"
+  },
+  "keywords": [
+    "elizaos",
+    "eliza",
+    "ai-agent",
+    "reeling",
+    "tiktok",
+    "instagram",
+    "youtube-shorts",
+    "video-generation"
+  ],
+  "author": "reeling.app",
+  "license": "MIT",
+  "peerDependencies": {
+    "@elizaos/core": ">=0.1.0"
+  },
+  "dependencies": {
+    "axios": "^1.7.9"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  }
+}
